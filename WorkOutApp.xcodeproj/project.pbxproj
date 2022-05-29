@@ -13,6 +13,10 @@
 		5A91755A27F5E0E20085A066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A91754527F5E0DF0085A066 /* ContentView.swift */; };
 		5A91755B27F5E0E20085A066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A91754627F5E0E10085A066 /* Assets.xcassets */; };
 		5A91755C27F5E0E20085A066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A91754627F5E0E10085A066 /* Assets.xcassets */; };
+		5A91756F27F5E5230085A066 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A91756E27F5E5230085A066 /* Counter.swift */; };
+		5A91757027F5E5230085A066 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A91756E27F5E5230085A066 /* Counter.swift */; };
+		5A91757A27F5E8880085A066 /* CounterRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A91757927F5E8880085A066 /* CounterRobot.swift */; };
+		5A91757B27F5E8880085A066 /* CounterRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A91757927F5E8880085A066 /* CounterRobot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		5A91755327F5E0E10085A066 /* WorkOutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkOutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A91755527F5E0E10085A066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A91755627F5E0E10085A066 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5A91756E27F5E5230085A066 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		5A91757927F5E8880085A066 /* CounterRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterRobot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				5A91754427F5E0DF0085A066 /* WorkOutAppApp.swift */,
-				5A91754527F5E0DF0085A066 /* ContentView.swift */,
+				5AF30A4527F9D87F00A61145 /* View */,
+				5AF30A4627F9D88C00A61145 /* ViewModel */,
 				5A91754627F5E0E10085A066 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +95,23 @@
 				5A91755627F5E0E10085A066 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		5AF30A4527F9D87F00A61145 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A91754527F5E0DF0085A066 /* ContentView.swift */,
+				5A91756E27F5E5230085A066 /* Counter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AF30A4627F9D88C00A61145 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A91757927F5E8880085A066 /* CounterRobot.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +213,8 @@
 			files = (
 				5A91755927F5E0E20085A066 /* ContentView.swift in Sources */,
 				5A91755727F5E0E20085A066 /* WorkOutAppApp.swift in Sources */,
+				5A91756F27F5E5230085A066 /* Counter.swift in Sources */,
+				5A91757A27F5E8880085A066 /* CounterRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +224,8 @@
 			files = (
 				5A91755A27F5E0E20085A066 /* ContentView.swift in Sources */,
 				5A91755827F5E0E20085A066 /* WorkOutAppApp.swift in Sources */,
+				5A91757027F5E5230085A066 /* Counter.swift in Sources */,
+				5A91757B27F5E8880085A066 /* CounterRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
